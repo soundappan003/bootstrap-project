@@ -1,0 +1,98 @@
+*
+{
+    box-sizing: border-box;
+}
+.hero-background
+{
+    background-image: url("/Assets/images/images/hero/h1_hero.jpg");
+    
+}
+.hero1-background
+{
+    background-image: url("/Assets/images/images/categori/card.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+}
+.manz{
+    transform: rotate(-90deg);
+      font-weight: bolder;
+      color: transparent;
+      -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(128, 128, 128, 0.588);
+    font-size: 120px;
+}
+
+
+
+.sub-background
+{
+    background-image: url("/Assets/images/images/collection/latest-offer.png");
+    background-repeat: no-repeat;
+
+    
+}
+
+.font{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.effect1>li>a:hover{
+    text-shadow: white 2px 2px 9px;
+}
+.effect2>li>a{
+    color:black;
+}
+
+
+.effect2>li>a:hover{
+
+    color: rgb(114, 200, 233);
+
+    }
+.hero-background>div>div:last-child>:first-child{
+    font-family: 'Yellowtail', cursive;
+}
+.hero-background>div>div:last-child>:nth-child(2){
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+
+}  
+.hero-background>div>div:last-child>:nth-child(3){
+    font-family: 'Playfair Display', serif;
+     font-style: italic;
+     
+
+}    
+
+.cat1>h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+}
+.cat1>div:nth-child(2)>.row>div>.card>div>div>h5{
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+ 
+
+}
+.cat1>div:nth-child(2)>.row>div>div>div>div>h5+p{
+   
+ display: inline-block;
+ font-weight: bold;
+
+
+}
+.cat1>div:nth-child(2)>.row>div>.card>div>div>p:last-child{
+  
+    font-family: 'Yellowtail', cursive;
+    font-weight: bold;
+    font-size: 22px;
+    text-shadow: white 2px -2px ;
+    
+   
+   }
+   
+   .collection
+   {
+    font-family: 'DM Serif Display', serif;
+   }
